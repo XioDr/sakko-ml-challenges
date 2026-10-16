@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Competition data, caches and models (not redistributable / too large)
+data/
+cache*/
+_xfer/
+catboost_info/
+*.npy
+*.npz
+*.parquet
+*.cbm
+*.joblib
+*.pkl
+*.pt
+*.zip
+*.log
+
+# Tooling
+node_modules/
+.edge-print-profile/
+.chart-data-*/
